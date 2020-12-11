@@ -4,7 +4,7 @@
 
 # http://docs.docker.io/en/latest/use/builder/
 
-FROM ubuntu:bionic
+FROM ubuntu:latest
 MAINTAINER Dave Beckett <dave@dajobe.org>
 
 COPY *.sh /build/
